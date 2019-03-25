@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "257278364854",
+    "firebase_url": "https://xenrich-ed761.firebaseio.com",
+    "project_id": "xenrich-ed761",
+    "storage_bucket": "xenrich-ed761.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:257278364854:android:fa586697243ce1be",
+        "android_client_info": {
+          "package_name": "com.shamyusof.metafizik"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "257278364854-834kn60rdlc9p9d0o9uvd9231rhinq6j.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.shamyusof.metafizik",
+            "certificate_hash": "f01609be45de73722804aa6008ddf52ded4efa9d"
+          }
+        },
+        {
+          "client_id": "257278364854-abnhrfihc1oh7i3ahnam30kvpg28ol44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjFtQ5oce3akAgxmx9z1ZPe03sf0c-os4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "257278364854-abnhrfihc1oh7i3ahnam30kvpg28ol44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

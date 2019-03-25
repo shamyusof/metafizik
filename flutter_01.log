@@ -1,0 +1,68 @@
+Flutter crash report; please file at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter fuchsia_reload
+
+## exception
+
+ArgumentError: Invalid argument(s): Cannot find executable for fx.
+
+```
+#0      _getExecutable (package:process/src/interface/local_process_manager.dart:113:5)
+#1      LocalProcessManager.run (package:process/src/interface/local_process_manager.dart:62:7)
+#2      FuchsiaReloadCommand._validateArguments (package:flutter_tools/src/commands/fuchsia_reload.dart:281:57)
+<asynchronous suspension>
+#3      FuchsiaReloadCommand.runCommand (package:flutter_tools/src/commands/fuchsia_reload.dart:85:11)
+<asynchronous suspension>
+#4      FlutterCommand.verifyThenRunCommand (package:flutter_tools/src/runner/flutter_command.dart:372:18)
+#5      _asyncThenWrapperHelper.<anonymous closure> (dart:async/runtime/libasync_patch.dart:77:64)
+#6      _rootRunUnary (dart:async/zone.dart:1132:38)
+#7      _CustomZone.runUnary (dart:async/zone.dart:1029:19)
+#8      _FutureListener.handleValue (dart:async/future_impl.dart:129:18)
+#9      Future._propagateToListeners.handleValueCallback (dart:async/future_impl.dart:642:45)
+#10     Future._propagateToListeners (dart:async/future_impl.dart:671:32)
+#11     Future._complete (dart:async/future_impl.dart:476:7)
+#12     _SyncCompleter.complete (dart:async/future_impl.dart:51:12)
+#13     _AsyncAwaitCompleter.complete.<anonymous closure> (dart:async/runtime/libasync_patch.dart:33:20)
+#14     _rootRun (dart:async/zone.dart:1124:13)
+#15     _CustomZone.run (dart:async/zone.dart:1021:19)
+#16     _CustomZone.bindCallback.<anonymous closure> (dart:async/zone.dart:947:23)
+#17     _microtaskLoop (dart:async/schedule_microtask.dart:41:21)
+#18     _startMicrotaskLoop (dart:async/schedule_microtask.dart:50:5)
+#19     _runPendingImmediateCallback (dart:isolate/runtime/libisolate_patch.dart:115:13)
+#20     _RawReceivePortImpl._handleMessage (dart:isolate/runtime/libisolate_patch.dart:172:5)
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, v0.8.2, on Microsoft Windows [Version 10.0.17134.345], locale en-MY)
+    • Flutter version 0.8.2 at C:\flutter
+    • Framework revision 5ab9e70727 (5 weeks ago), 2018-09-07 12:33:05 -0700
+    • Engine revision 58a1894a1c
+    • Dart version 2.1.0-dev.3.1.flutter-760a9690c2
+
+[✓] Android toolchain - develop for Android devices (Android SDK 28.0.3)
+    • Android SDK at C:\Users\HP\AppData\Local\Android\sdk
+    • Android NDK location not configured (optional; useful for native profiling support)
+    • Platform android-28, build-tools 28.0.3
+    • Java binary at: C:\Program Files\Android\Android Studio\jre\bin\java
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1136-b06)
+    • All Android licenses accepted.
+
+[✓] Android Studio (version 3.2)
+    • Android Studio at C:\Program Files\Android\Android Studio
+    • Flutter plugin version 28.0.2
+    • Dart plugin version 181.5616
+    • Java version OpenJDK Runtime Environment (build 1.8.0_152-release-1136-b06)
+
+[✓] VS Code (version 1.28.1)
+    • VS Code at C:\Users\HP\AppData\Local\Programs\Microsoft VS Code
+    • Flutter extension version 2.19.0
+
+[✓] Connected devices (1 available)
+    • SM G935F • 9886734749594e4d47 • android-arm64 • Android 8.0.0 (API 26)
+
+• No issues found!
+```

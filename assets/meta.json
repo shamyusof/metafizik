@@ -1,0 +1,122 @@
+[
+	{
+    "id": "",
+	"umum": "",
+    "color": "",
+    "energi": "",
+    "stabil": "",
+    "lemah": "",
+    "nokew": "",
+    "descnokew": "",
+    "elemen": "",
+    "lambang": ""
+  },
+  {
+    "id": "1",
+	"umum": "Pemimpin, Ketua, Boleh Di harap, Berdikari ",
+    "color": "Hijau",
+    "energi": "Coklat, Kuning , Beige",
+    "stabil": "Putih , Emas , Silver",
+    "lemah": "Biru, Hitam, Merah, Ungu, Oren, Pink",
+    "nokew": "3",
+    "descnokew": "suka belanja, boros, duit cepat masuk tapi cepat habis",
+    "elemen": "Logam",
+    "lambang": "Ketulenan"
+  },
+  {
+    "id": "2",
+	"umum": "Sosial, Peramah,Suka bercakap, Pandai, Ambik Hati ",
+    "color": "Merah, Ungu, Oren, Pink",
+    "energi": "Putih, Emas, Silver",
+    "stabil": "Biru, Hitam",
+    "lemah": "Coklat, Kuning, Beige, Hijau",
+    "nokew": "6",
+    "descnokew": "suka simpan wang, ada kemampuan untuk mengawal wang dan berhemah",
+    "elemen": "Air",
+    "lambang": "Pendamai/Seni suara"
+  },
+  {
+      "id": "3",
+      "umum": "Sentiasa Bergerak & banyak idea",
+      "color": "Putih, Emas, Silver",
+      "energi": "Hijau",
+      "stabil": "Merah Ungu Oren Pink",
+      "lemah": "Coklat Kuning Beige Biru Hitam",
+      "nokew": "9",
+      "descnokew": "suka pada bentuk belian aset, travel dan update hal barang terbaru",
+      "elemen": "Api",
+      "lambang": "Ketelitian/Aktif"
+    },
+	{
+      "id": "4",
+      "umum": "Seorang Perancang, Suka ilmu , Gemar mencuba sesuatu baru",
+      "color": "Coklat, Kuning, Beige",
+      "energi": "Biru Hitam",
+      "stabil": "Hijau",
+      "lemah": "Merah Ungu Oren Pink Putih Emas Silver",
+      "nokew": "3",
+      "descnokew": "suka belanja, boros, duit cepat masuk tapi cepat habis",
+      "elemen": "Kayu",
+      "lambang": "Perancangan dan Ilmu"
+    },
+	{
+      "id": "5",
+      "umum": " Prinsip & Suka buat perubahan baru.",
+      "color": "Biru Hitam",
+      "energi": "Merah Ungu Oren Pink",
+      "stabil": "Coklat Kuning Beige",
+      "lemah": "Putih Emas Silver Hijau",
+      "nokew": "6",
+      "descnokew": "suka simpan wang, ada kemampuan untuk mengawal wang dan berhemah",
+      "elemen": "Tanah",
+      "lambang": "Perintis/Perubahan"
+    },
+	{
+      "id": "6",
+      "umum": "Bijak dalam mendapatkan Wang @ Mudah dapat Wang.",
+      "color": "Hijau",
+      "energi": "Coklat Kuning Beige",
+      "stabil": "Putih Emas Silver",
+      "lemah": "Biru, Hitam Merah, Ungu Oren, Pink",
+      "nokew": "9",
+      "descnokew": "suka pada bentuk belian aset, travel dan update hal barang terbaru",
+      "elemen": "Logam/Besi",
+      "lambang": "Romantis/Duit"
+    },
+    {
+      "id": "7",
+      "umum": "Pengaruh / Suka Networking / Penyayang",
+      "color": "Merah Ungu Oren Pink",
+      "energi": "Putih Emas Silver",
+      "stabil": "Biru Hitam",
+      "lemah": "Coklat Kuning Beige Hijau",
+      "nokew": "3",
+      "descnokew": "suka belanja, boros, duit cepat masuk tapi cepat habis",
+      "elemen": "Air",
+      "lambang": " Intelektual/Penyokong"
+    },
+    {
+      "id": "8",
+      "umum": "Seorang berTanggungjawab & bijak selesaikan masalah",
+      "color": "Putih Emas Silver",
+      "energi": "Hijau",
+      "stabil": "Merah Ungu Oren Pink",
+      "lemah": "Coklat Kuning Beige Biru Hitam",
+      "nokew": "6",
+      "descnokew": "suka simpan wang, ada kemampuan untuk mengawal wang dan berhemah",
+      "elemen": "Api",
+      "lambang": "Penyelesaian/Tanggungjawab"
+    },
+    {
+      "id": "9",
+      "umum": "Seorang Motivator, Membuka peluang baru, Pemimpin",
+      "color": "Coklat Kuning Beige",
+      "energi": "Biru Hitam",
+      "stabil": "Hijau",
+      "lemah": "Merah Ungu Oren Pink Putih Emas Silver",
+      "nokew": "9",
+      "descnokew": "suka pada bentuk belian aset, travel dan update hal barang terbaru",
+      "elemen": "Kayu",
+      "lambang": "Glamour/Pelengkap"
+    }
+ ]
